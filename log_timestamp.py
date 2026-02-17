@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script to log the current date and time in AEST to a CSV file.
+Script to log the current date and time in Australian Eastern Time (AEST/AEDT) to a CSV file.
 This will be run by a GitHub Action on a schedule.
 """
 import csv
@@ -12,7 +12,7 @@ import os
 CSV_FILE = 'timestamps.csv'
 
 def log_timestamp():
-    """Log the current date and time in AEST timezone to a CSV file."""
+    """Log the current date and time in Australian Eastern Time timezone (AEST/AEDT) to a CSV file."""
     # Define AEST timezone
     aest = pytz.timezone('Australia/Sydney')
     

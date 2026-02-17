@@ -6,7 +6,7 @@ This repository demonstrates a simple timestamp logging system that uses GitHub 
 
 The system consists of three main components:
 
-1. **Python Script** (`log_timestamp.py`): Logs the current date and time in AEST (Australian Eastern Standard Time) to a CSV file
+1. **Python Script** (`log_timestamp.py`): Logs the current date and time in Australian Eastern Time (AEST/AEDT) to a CSV file
 2. **GitHub Action** (`.github/workflows/log_timestamp.yml`): Runs the Python script on a schedule (every hour) and commits the updated CSV file
 3. **Streamlit App** (`streamlit_app.py`): Displays the timestamp data from the CSV file in a user-friendly interface
 
