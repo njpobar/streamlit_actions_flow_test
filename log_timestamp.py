@@ -38,7 +38,7 @@ def log_timestamp():
             timestamp_str,
             current_time.strftime('%Y-%m-%d'),
             current_time.strftime('%H:%M:%S'),
-            'AEST'
+            current_time.strftime('%Z')
         ])
     
     print(f"Logged timestamp: {timestamp_str}")

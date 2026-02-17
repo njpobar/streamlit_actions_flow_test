@@ -13,8 +13,8 @@ st.set_page_config(
 )
 
 # Title
-st.title("🕐 Timestamp Logger - AEST")
-st.markdown("This app displays timestamps logged by a GitHub Action in Australian Eastern Standard Time (AEST).")
+st.title("🕐 Timestamp Logger - Australian Eastern Time")
+st.markdown("This app displays timestamps logged by a GitHub Action in Australian Eastern Time (AEST/AEDT).")
 
 # CSV file path
 CSV_FILE = 'timestamps.csv'
